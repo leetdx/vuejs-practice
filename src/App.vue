@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <!-- <Form /> -->
-    <!-- <Todo /> -->
-    <!-- <celebrity-vote /> -->
     <button class="btn btn-outline-primary" @click="openClick(1)">Form</button>
     <button class="btn btn-outline-primary mx-2" @click="openClick(2)">
       Todo
@@ -24,7 +21,6 @@ import Vote from "./components/vote/vote-place.vue";
 import dModal from "./components/d-modal.vue";
 import firstForm from "./components/fundamentals/form.vue";
 import todoApp from "./components/fundamentals/todo.vue";
-// import topThree from "./components/vote/top-three.vue";
 export default {
   name: "App",
   components: {
