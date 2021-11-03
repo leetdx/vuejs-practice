@@ -1,26 +1,18 @@
 <template>
   <div>
     <div :class="classes">
-      <div
-        class="
-          d-modal-header
-          row
-          px-2
-          justify-content-between
-          align-items-center
-        "
-      >
-        <h2 class="d-header-text col-8">
+      <div class="row px-2 justify-content-between align-items-center">
+        <h2 class="col-8">
           <slot name="d-modal-header">Custom modal</slot>
         </h2>
         <button
           type="button"
-          class="btn-close d-close-button col-1 p-2"
+          class="btn-close col-1 p-2"
           aria-label="Close"
           @click="closeClick"
         ></button>
       </div>
-      <div class="d-modal-body">
+      <div>
         <hr />
         <h3>
           <slot name="title">Body title</slot>
@@ -28,7 +20,7 @@
         <slot name="content">Some content</slot>
         <hr />
       </div>
-      <div class="d-modal-footer">
+      <div>
         <h3>
           <slot name="d-modal-footer">Footer</slot>
         </h3>
@@ -133,16 +125,5 @@ export default {
   width: 1500px;
   left: 150px;
   top: 100px;
-}
-
-.d-modal-header {
-  /* background: rgba(71, 150, 84, 0.3); */
-}
-
-.d-modal-body {
-  /* background: rgba(138, 114, 160, 0.3); */
-}
-.d-modal-footer {
-  /* background: rgba(62, 119, 143, 0.3); */
 }
 </style>
