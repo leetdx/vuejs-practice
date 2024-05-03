@@ -1,4 +1,6 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uA-xCtR3nXY?si=sHRK6zHGC2Dhw647" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+### Video: Kubernetes Lab walkthrough
+
+[![Kubernetes Lab walkthrough](https://img.youtube.com/vi/d51YVGhTFWg/0.jpg)](https://www.youtube.com/watch?v=d51YVGhTFWg "Kubernetes Lab walkthrough")
 
 # my-vue
 
